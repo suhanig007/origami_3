@@ -1,0 +1,75 @@
+h1 {
+    color: black;
+    padding-left:30px;
+}
+.header * {
+    border:solid;
+}
+.header{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    width:1000;
+    height:40px;
+}
+.site-description{
+    display:flex;
+    flex-direction:column;
+    justify-content: first baseline;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    border-radius: 20px;
+    background-color:white;
+    padding: 30px;
+    margin: 25px;
+     width:310px;
+     font-family: fantast
+}
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    border-color: black;
+    color: white;
+
+}
+.menu a{
+    margin-left:30px;
+    color:black;
+}
+body{
+    margin: 0px;
+    background-color:lightpink;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a:link{color: pink}
+a:visited{color:rosybrown}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.item:hover p{opacity: 1;}
+.item:hover img{opacity: 0.3;}
